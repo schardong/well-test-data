@@ -1,0 +1,291 @@
+** 2016-09-21. 13:26:40. lucas
+** 2016-10-05, 15:54:24, Abel
+** 2016-10-05, 15:56:29, Abel
+** 2016-12-21, 16:55:27, guilhermelocal
+** 2016-12-21, 17:47:51, guilhermelocal
+** 2016-12-21, 18:03:33, guilhermelocal
+** 2016-12-22, 10:32:46, guilhermelocal
+** 2016-12-22, 10:51:45, guilhermelocal
+** 2016-12-22, 11:23:18, guilhermelocal
+** 2017-09-25, 19:13:00, guilhermelocal
+** 
+** Fixed the well loc.
+** 2017-09-25, 19:17:23, guilhermelocal
+** 
+** Refined the grid around well1
+** 2017-09-25, 19:21:36, guilhermelocal
+** 
+** Re-refined the grid.
+** 2017-09-25, 19:23:01, guilhermelocal
+** 2017-09-28, 15:15:19, guilhermelocal
+** 
+** Refined the grid.
+** 2017-09-28, 15:28:47, guilhermelocal
+** 2019-02-14, 18:46:56, gschardong
+** 2019-02-14, 18:56:44, gschardong
+** 
+** Refined grid around
+** 2019-02-14, 19:23:10, gschardong
+** 2019-02-15, 16:33:28, gschardong
+** 2019-03-12, 1:57:28 PM, gschardong
+** 2019-03-12, 1:58:24 PM, gschardong
+RESULTS SIMULATOR IMEX 201410
+
+INUNIT MODSI
+WSRF WELL 2
+WSRF GRID TIME
+WSRF SECTOR TIME
+OUTSRF WELL LAYER NONE
+OUTSRF RES ALL
+OUTSRF GRID DATUMPRES PRES SG SO SW WINFLUX 
+WPRN GRID 0
+OUTPRN GRID NONE
+OUTPRN RES NONE
+
+**$  Distance units: m
+RESULTS XOFFSET           0.0000
+RESULTS YOFFSET           0.0000
+
+**$  (DEGREES)
+RESULTS ROTATION           0.0000  **  (DEGREES)
+RESULTS AXES-DIRECTIONS 1.0 -1.0 1.0
+
+**$ ***************************************************************************
+**$ Definition of fundamental cartesian grid
+**$ ***************************************************************************
+GRID VARI 201 201 1
+KDIR UP
+DI IVAR 
+ 201*50
+DJ JVAR 
+ 201*50
+DK ALL
+ 40401*100
+DTOP
+ 40401*0
+
+**$ Property: Pinchout Array  Max: 1  Min: 1
+**$  0 = pinched block. 1 = active block
+PINCHOUTARRAY CON            1
+**$ Property: NULL Blocks  Max: 1  Min: 1
+**$  0 = null block. 1 = active block
+PVCUTOFF 0
+NULL CON 1
+
+**$ Property: Porosity  Max: 0.3  Min: 0.3
+POR CON          0.3
+CPOR		 100E-7
+*PRPOR		 300.0
+
+**$ Property: Permeability I (md)   Max: 200  Min: 200
+PERMI CON     1
+MOD 101:101 1:201 1:1 = 50
+PERMJ EQUALSI
+PERMK EQUALSI
+MODEL OILWATER 
+TRES 60
+**$         p        Rs        Bo        Bg      viso      visg
+**         p        Rs        Bo        Bg      viso      visg
+PVT BG 1
+
+**         p        Rs         Bo        Bg      viso      visg
+          100        50        1.2  0.001667         1      0.06
+          400       100  1.2829895   0.00166         1      0.06
+BWI 1.0
+CO 100e-6
+CVO 0
+CVW 0
+CW 50e-6
+DENSITY OIL 800
+DENSITY WATER 1000
+REFPW 300
+VWI 1
+GRAVITY GAS 0.06
+**$ Property: PVT Type  Max: 1  Min: 1
+PTYPE CON            1
+ROCKFLUID
+RPT 1
+**$        Sw       krw      krow      Pcow     Pcowi
+**        Sw       krw      krow      Pcow     Pcowi
+SWT
+            0         0         1         0         0
+          0.1         0       0.8         0         0
+          0.2       0.1       0.7         0         0
+          0.3       0.1       0.5         0         0
+          0.4       0.2       0.4         0         0
+          0.5       0.3       0.3         0         0
+          0.6       0.4       0.2         0         0
+          0.7       0.5       0.1         0         0
+          0.8       0.7       0.1         0         0
+          0.9       0.8         0         0         0
+            1         1         0         0         0
+
+** Initial section start
+INITIAL
+VERTICAL DEPTH_AVE WATER_OIL EQUIL
+
+REFDEPTH 2800
+REFPRES 300
+DWOC 5000
+
+DATUMDEPTH 2800 INITIAL
+**$ Property: Bubble Point Pressure ((kg/cm2))   Max: 10  Min: 10
+PB CON          10
+
+** Numerical section data
+NUMERICAL
+
+** Well and recurrent data section
+RUN
+DATE 2016 9 1
+**$
+**
+**
+**
+**
+WELL  'Well-1'
+PRODUCER 'Well-1'
+OPERATE  MAX  STL  500  CONT
+** UBA                       ff          Status  Connection  
+**          rad  geofac  wfrac  skin
+GEOMETRY  K  0.122  0.37  1.0  0.0
+      PERF      GEOA  'Well-1'
+** UBA                               ff          Status  Connection  
+    45 50 1 / 2 2 1 / 2 2 1         1.0  OPEN    FLOW-TO  'SURFACE'
+**
+
+WELL  'Well-2'
+INJECTOR MOBWEIGHT 'Well-2'
+INCOMP  WATER
+OPERATE  MAX  STW  500  CONT
+OPERATE  MAX  BHP  2400.0  STOP
+** UBA                       ff          Status  Connection  
+**          rad  geofac  wfrac  skin
+GEOMETRY  K  0.122  0.37  1.0  0.0
+      PERF       GEO  'Well-2'
+** UBA                               ff          Status  Connection  
+    55 50 1 / 2 2 1 / 2 2 1         1.0  OPEN    FLOW-FROM  'SURFACE'
+**
+
+BHPDEPTH 'Well-1' 2800.0
+BHPDEPTH 'Well-2' 2800.0
+TIME	 0.000010000 
+TIME	 0.000013000 
+TIME	 0.000016900 
+TIME	 0.000021970 
+TIME	 0.000028561 
+TIME	 0.000037129 
+TIME	 0.000048268 
+TIME	 0.000062749 
+TIME	 0.000081573 
+TIME	 0.000106045 
+TIME	 0.000137858 
+TIME	 0.000179216 
+TIME	 0.000232981 
+TIME	 0.000302875 
+TIME	 0.000393738 
+TIME	 0.000511859 
+TIME	 0.000665417 
+TIME	 0.000865042 
+TIME	 0.001124554 
+TIME	 0.001461920 
+TIME	 0.001900496 
+TIME	 0.002470645 
+TIME	 0.003211839 
+TIME	 0.004175391 
+TIME	 0.005428008 
+TIME	 0.007056410 
+TIME	 0.009173333 
+TIME	 0.011925333 
+TIME	 0.015502933 
+TIME	 0.020153813 
+TIME	 0.026199956 
+TIME	 0.034059943 
+TIME	 0.044277926 
+TIME	 0.057561304 
+TIME	 0.074829696 
+TIME	 0.097278604 
+TIME	 0.126462186 
+TIME	 0.164400841 
+TIME	 0.213721094 
+TIME	 0.277837422 
+TIME	 0.361188648 
+TIME	 0.469545243 
+TIME	 0.610408815 
+TIME	 0.793531460 
+TIME	 1.031590898 
+TIME	 1.341068167 
+TIME	 1.743388617 
+TIME	 2.266405202 
+TIME	 2.946326763 
+TIME	 3.830224792 
+TIME	 5.000000000
+
+
+RESULTS PINCHOUT-VAL 0.0002
+
+RESULTS SPEC 'Bubble Point Pressure'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'PVT Type 1'
+RESULTS SPEC REGIONTYPE 'REGION_TABLE'
+RESULTS SPEC LAYERNUMB 1
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 10          
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
+
+RESULTS SPEC 'Permeability I'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'All Layers (Whole Grid)'
+RESULTS SPEC REGIONTYPE 'REGION_WHOLEGRID'
+RESULTS SPEC LAYERNUMB 0
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 200         
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
+
+RESULTS SPEC 'Porosity'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'All Layers (Whole Grid)'
+RESULTS SPEC REGIONTYPE 'REGION_WHOLEGRID'
+RESULTS SPEC LAYERNUMB 0
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 0.3         
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
+
+RESULTS SPEC 'PVT Type'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'All Layers (Whole Grid)'
+RESULTS SPEC REGIONTYPE 'REGION_WHOLEGRID'
+RESULTS SPEC LAYERNUMB 0
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 1           
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
+
+RESULTS SPEC 'Grid Thickness'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'All Layers (Whole Grid)'
+RESULTS SPEC REGIONTYPE 'REGION_WHOLEGRID'
+RESULTS SPEC LAYERNUMB 0
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 10          
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
+
+RESULTS SPEC 'Grid Top'  
+RESULTS SPEC SPECNOTCALCVAL -99999      
+RESULTS SPEC REGION 'Layer 1 - Whole layer'
+RESULTS SPEC REGIONTYPE 'REGION_LAYER'
+RESULTS SPEC LAYERNUMB 1
+RESULTS SPEC PORTYPE 1
+RESULTS SPEC CON 2800        
+RESULTS SPEC SPECKEEPMOD 'YES'
+RESULTS SPEC STOP
+
