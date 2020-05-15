@@ -1,0 +1,2734 @@
+{
+    "runs": [
+        {
+            "csv_results_path": "csv_radial_500_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_500_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_500_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_500_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_500_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 5000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_500_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1000_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1000_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1000_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1000_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1000_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 10000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1000_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1500_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1500_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1500_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1500_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_1500_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 15000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_1500_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 1500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2000_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2000_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2000_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2000_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2000_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 20000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2000_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2500_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2500_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2500_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2500_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_2500_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 25000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_2500_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 2500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3000_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3000_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3000_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3000_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3000_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 30000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3000_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3500_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3500_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3500_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3500_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_3500_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 35000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_3500_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 3500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4000_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4000_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4000_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4000_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4000_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 40000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4000_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4500_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4500_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4500_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4500_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_4500_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 45000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_4500_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 4500,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_5000_PERMI_fault_0_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 1
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_5000_0",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 5000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_5000_PERMI_fault_1_OBS_PROD",
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_5000_1",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 5000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        },
+        {
+            "csv_results_path": "csv_radial_5000_PERMI_fault_10_OBS_PROD",
+            "faults": [
+                {
+                    "coords": [
+                        "101:101",
+                        "1:201",
+                        "1:1"
+                    ],
+                    "property": {
+                        "PERMI": 50000
+                    }
+                }
+            ],
+            "grid": {
+                "dI": 50,
+                "dJ": 50,
+                "dK": 100,
+                "kdir": "UP",
+                "nI": 201,
+                "nJ": 201,
+                "nK": 1
+            },
+            "output_path": "imex_5000_10",
+            "position_config": {
+                "Well-1": {
+                    "block_increment": -1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                },
+                "Well-2": {
+                    "block_increment": 1,
+                    "block_limit": 20,
+                    "direction": "horizontal"
+                }
+            },
+            "reference_simulation_file": "data/base.dat",
+            "refinement_radius_per_level": 2,
+            "remove_tmp_files": false,
+            "reservoir": {
+                "PERMI": 5000,
+                "PERMJ": "EQUALSI",
+                "PERMK": "EQUALSI"
+            },
+            "seed": 1003,
+            "type": "radial",
+            "wells": [
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 0.001,
+                    "location": [
+                        [
+                            99,
+                            99,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-1",
+                    "type": "PRODUCER"
+                },
+                {
+                    "fluid": "OIL",
+                    "fluid_rate": 500,
+                    "location": [
+                        [
+                            99,
+                            101,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            1,
+                            0
+                        ]
+                    ],
+                    "name": "Well-2",
+                    "type": "PRODUCER"
+                }
+            ]
+        }
+    ]
+}

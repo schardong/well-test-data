@@ -1,0 +1,142 @@
+{
+    "runs": [
+	{
+	    "type": "radial",
+	    "remove_tmp_files": true,
+	    "output_path": "imex_simple_500",
+	    "csv_results_path": "csv_simple_500",
+	    "seed": 1003,
+	    "refinement_radius_per_level": 2,
+	    "reference_simulation_file": "data/base_small.dat",
+	    "position_config": {
+		"Well-2": {
+		    "block_increment": 1,
+		    "block_limit": 12,
+		    "direction": "horizontal"
+		}
+	    },
+	    "grid": {
+		"nI": 51,
+		"nJ": 51,
+		"nK": 1,
+		"dI": 50,
+		"dJ": 50,
+		"dK": 100,
+		"kdir": "UP"
+	    },
+	    "reservoir": {
+		"PERMI": 500,
+		"PERMJ": "EQUALSI",
+		"PERMK": "EQUALSI"
+	    },
+	    "wells": [
+		{
+		    "name": "Well-1",
+		    "location": [[24, 11, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 0.001
+		},
+		{
+		    "name": "Well-2",
+		    "location": [[24, 12, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 500
+		}
+	    ]
+	},
+	{
+	    "type": "radial",
+	    "remove_tmp_files": true,
+	    "output_path": "imex_simple_1500",
+	    "csv_results_path": "csv_simple_1500",
+	    "seed": 1003,
+	    "refinement_radius_per_level": 2,
+	    "reference_simulation_file": "data/base_small.dat",
+	    "position_config": {
+		"Well-2": {
+		    "block_increment": 1,
+		    "block_limit": 12,
+		    "direction": "horizontal"
+		}
+	    },
+	    "grid": {
+		"nI": 51,
+		"nJ": 51,
+		"nK": 1,
+		"dI": 50,
+		"dJ": 50,
+		"dK": 100,
+		"kdir": "UP"
+	    },
+	    "reservoir": {
+		"PERMI": 1500,
+		"PERMJ": "EQUALSI",
+		"PERMK": "EQUALSI"
+	    },
+	    "wells": [
+		{
+		    "name": "Well-1",
+		    "location": [[24, 11, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 0.001
+		},
+		{
+		    "name": "Well-2",
+		    "location": [[24, 12, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 500
+		}
+	    ]
+	},
+	{
+	    "type": "radial",
+	    "remove_tmp_files": true,
+	    "output_path": "imex_simple_2500",
+	    "csv_results_path": "csv_simple_2500",
+	    "seed": 1003,
+	    "refinement_radius_per_level": 2,
+	    "reference_simulation_file": "data/base_small.dat",
+	    "position_config": {
+		"Well-2": {
+		    "block_increment": 1,
+		    "block_limit": 12,
+		    "direction": "horizontal"
+		}
+	    },
+	    "grid": {
+		"nI": 51,
+		"nJ": 51,
+		"nK": 1,
+		"dI": 50,
+		"dJ": 50,
+		"dK": 100,
+		"kdir": "UP"
+	    },
+	    "reservoir": {
+		"PERMI": 2500,
+		"PERMJ": "EQUALSI",
+		"PERMK": "EQUALSI"
+	    },
+	    "wells": [
+		{
+		    "name": "Well-1",
+		    "location": [[24, 11, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 0.001
+		},
+		{
+		    "name": "Well-2",
+		    "location": [[24, 12, 0], [1, 1, 0], [1, 1, 0]],
+		    "type": "PRODUCER",
+		    "fluid": "OIL",
+		    "fluid_rate": 500
+		}
+	    ]
+	}
+    ]
+}
