@@ -6,7 +6,7 @@ Data and code regarding the reservoir model inference from well test pressure de
 Most of the code in this repository is written in Python 3. The experiments themselves are located in Jupyter Notebooks in the ```notebooks``` folder. The analytical scenario generation is written in Matlab/GNU Octave script and is located in the ```utils``` folder. The python requirements are listed in ```requirements.txt``` and can be installed using:
 
 ```bash
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 The external requirements for this project are:
